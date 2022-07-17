@@ -1,0 +1,38 @@
+// Colors
+$Moderate-violet: #7440c7;
+$Very-dark-grayish-blue: #48556a;
+$Very-dark-blackish-blue: #19212e;
+$White: #ffffff;
+$Light-gray: #cfcfcf;
+$Light-grayish-blue: #ecf2f8;
+
+// Font's Size
+$fs-100: 1.1rem;
+$fs-200: 1.35rem;
+$fs-300: 1.6rem;
+
+// Font's Weight
+$fw-500: 500;
+$fw-600: 600;
+
+*,
+*::after,
+*::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 13px;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: $Light-grayish-blue;
+}

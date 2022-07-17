@@ -1,0 +1,27 @@
+// Screen dimensions
+@media (min-width: 991px) {
+    .container {
+        grid-template-areas:
+            "one one two five"
+            "three four four five";
+    }
+}
+@media (max-width: 990px) {
+    .container {
+        grid-template-areas:
+            "one one"
+            "two five"
+            "three five"
+            "four four ";
+    }
+}
+@media (max-width: 550px) {
+    .container {
+        grid-template-areas:
+            "one one"
+            "two two"
+            "five five"
+            "three three"
+            "four four ";
+    }
+}
